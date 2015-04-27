@@ -2,10 +2,15 @@
   "name": "generic-e2e",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "test.spec.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-node runner.spec.js --captureExceptions"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-node": "^1.14.5",
+    "jasmine-spec-reporter": "^1.1.2",
+    "webdriverio": "^2.4.5"
+  }
 }

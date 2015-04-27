@@ -11,6 +11,7 @@
   "dependencies": {
     "jasmine-node": "^1.14.5",
     "jasmine-spec-reporter": "^1.1.2",
+    "webdrivercss": "^1.0.6",
     "webdriverio": "^2.4.5"
   }
 }
